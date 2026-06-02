@@ -1,0 +1,27 @@
+{
+  "satellite": {
+    "moment_of_inertia_kgm2": [
+      [0.05, 0.0, 0.0],
+      [0.0, 0.05, 0.0],
+      [0.0, 0.0, 0.05]
+    ],
+    "initial_spin_deg_s": [10.0, -10.0, 10.0],
+    "target_detumble_rate_deg_s": 0.5
+  },
+  "magnetorquer": {
+    "max_current_amps": 0.015,
+    "coil_area_m2": 0.0005,
+    "number_of_turns": 20,
+    "core_material": {
+      "effective_relative_permeability": 50.0
+    },
+    "b_dot_gain": 50000.0
+  },
+  "orbit": {
+    "altitude_km": 500,
+    "b_field_equator_tesla": 3e-5
+  },
+  "simulation": {
+    "max_time_hours": 24.0
+  }
+}
